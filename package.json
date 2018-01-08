@@ -8,9 +8,11 @@
   "author": "https://twitter.com/nelsonic",
   "version": "1.0.0",
   "devDependencies": {
+    "jest": "^22.0.4",
     "jshint": "^2.8.0"
   },
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js"
+    "oldtest": "./node_modules/jshint/bin/jshint hello.js",
+    "test": "jest"
   }
 }
